@@ -1,0 +1,11 @@
+{
+  "name": "holdtime",
+  "version": "0.0.0",
+  "description": "Measure time spent waiting for a callback.",
+  "author": "Seth Fitzsimmons <seth@mojodna.net>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stamen/holdtime.git"
+  }
+}
