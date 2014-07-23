@@ -1,6 +1,6 @@
 {
   "name": "holdtime",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Measure time spent waiting for a callback.",
   "author": "Seth Fitzsimmons <seth@mojodna.net>",
   "license": "ISC",
