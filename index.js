@@ -17,6 +17,13 @@ module.exports = function(callback) {
     var elapsed = process.hrtime(startTime);
 
     var args = Array.prototype.slice.call(arguments);
+
+    // if the wrapped function didn't yield anything, null out the error
+    // argument
+    if (args.length === 0) {
+      args.push(null);
+    }
+
     args.push(hrtimeToMS(elapsed));
 
     return callback.apply(this, args);
